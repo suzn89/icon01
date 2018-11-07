@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
+
+body { 
+    font-family: 'Noto Sans KR', dotum, sans-serif;
+    color: #7d7d7d;
+}
+*, :after, :before {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5 { color: #2E303D}
+legend{
+    visibility:hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    width:1px;
+    height:1px;
+    font-size:0;
+    line-height:0
+}
+
+header { 
+    width: 100%; 
+    padding: 50px 0; 
+    background: #f8f8f8; 
+    border-bottom: 1px solid #E3E3E3
+}
+header h1 { 
+    width: 1600px; 
+    margin: 0px auto;
+}
+header h1 a { 
+    font-size: 36px;
+    font-weight: bold; 
+    color:#538fc7; 
+    padding-left: 80px; 
+    background: url(../images/logo.png) left 50% no-repeat;
+}
+
+section { width: 1600px; margin: 0 auto;}
+
+/* 로그인 페이지 */
+#login_box { 
+    width: 480px;
+    margin: 160px auto 0;
+    border-radius: 5px;
+    border: 1px solid #E3E3E3;
+}
+
+.loin_tit {
+    padding: 30px;
+    background: #F8F8F8;
+    border-bottom: 1px solid #E3E3E3    
+}
+#login_box h3 {
+    height: 45px;
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 75px;
+    background: url(../images/login_box.png) left 50% no-repeat;
+}
+#login_box h4 {
+    margin-top: 12px;
+    font-size: 22px;
+}
+#login_box fieldset {
+    padding: 30px;
+}
+#login_box .userid {
+    margin-bottom: 40px;
+}
+#login_box .i_label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+#login_box .i_text {
+    width: 430px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 23px;
+    font-size:22px;
+    color: #2E303D;
+    border-radius: 5px;
+    border: 1px solid #E3E3E3;
+}
+#login_box .i_text:active, #login_box .i_text:focus {
+    background: #FBFBC2;
+}
+#login_box .btnlogin input {
+  display: inline-block;
+  width: 135px;
+  height: 53px;
+  margin-top: 30px;
+  padding: 0;
+  font-size: 22px;
+  color: #538fc7;   
+  border-radius: 5px;
+  border: 1px solid #538fc7;
+  background: none;
+}
+#login_box .btnlogin input:hover,
+#login_box .btnlogin input:focus,
+#login_box .btnlogin input:active {
+    display: inline-block;
+    width: 135px;
+    height: 53px;
+    margin-top: 30px;
+    padding: 0;
+    font-size: 22px;
+    color: #fff;   
+    border-radius: 5px;
+    border: 1px solid #4983b9;
+    background: #4983b9;
+  }
