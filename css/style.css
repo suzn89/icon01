@@ -23,14 +23,20 @@ legend{
 }
 
 header { 
-    width: 100%; 
-    padding: 50px 0; 
+    width: 100%;
+    height: 150px;
     background: #f8f8f8; 
     border-bottom: 1px solid #E3E3E3
 }
+header #header_cont {
+    width: 1600px;
+    margin: 0 auto;
+    
+}
 header h1 { 
-    width: 1600px; 
-    margin: 0px auto;
+    float:left;
+    margin: 48px 0;
+    line-height: 1.5;
 }
 header h1 a { 
     font-size: 36px;
@@ -39,11 +45,95 @@ header h1 a {
     padding-left: 80px; 
     background: url(../images/logo.png) left 50% no-repeat;
 }
+header #header_cont .adminmn {
+    position: relative;
+    float: right;
+    width: 140px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;    
+}
 
 section { width: 1600px; margin: 0 auto;}
 
 /* 공통 */
-
+.adminmn {
+    /* Size & position */
+    position: relative;
+    width: 140px;
+    margin: 0;
+    font-size: 22px;
+    color: #538fc7;
+    cursor: pointer;
+}
+  
+  .adminmn i { 
+      margin-right: 10px;
+    }
+  .adminmn .dropdown {
+    /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    /* Styles */
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #f8f8f8;
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    /* Hiding */
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  .adminmn .dropdown li {
+    padding: 0 10px;
+    line-height: 20px; 
+    text-align: left;
+  }
+  
+  .adminmn .dropdown li a {
+    display: block;
+    text-decoration: none;
+    font-size:16px;
+    color: #538FC7;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e6e8ea;
+  }
+  
+  .adminmn .dropdown li:last-of-type a {
+    border: none;
+  }
+  
+  .adminmn .dropdown li i {
+    margin-right: 5px;
+    color: inherit;
+    vertical-align: middle;
+  }
+  
+  /* Hover state */
+  .adminmn .dropdown li:hover a {
+    color: #4983b9;
+  }
+  
+  /* Active state */
+  .adminmn.active {
+    background: #fff;
+    border-bottom: none;
+    color: #4983b9;
+  }
+  
+  .adminmn.active:after {
+    border-color: #82d1ff transparent;
+  }
+  
+  .adminmn.active .dropdown {
+    border-bottom: 1px solid #E3E3E3;
+    max-height: 400px;
+  }
+  
 
 
 /* 로그인 페이지 */
@@ -123,24 +213,45 @@ section { width: 1600px; margin: 0 auto;}
   }
 
  /* 메인화면 */ 
-  #links {
+#links {
       width: 1200px;
       margin: 80px auto 0 ;
-  }
-  #links .links_box {
-      float:left;
-      display: inline-block; 
-      width: 560px;
-      height: 250px;
-      margin: 0 20px 30px;
-      text-align: center;
-      border-radius: 5px;
-      border: 2px solid #E3E3E3;
-  }
-  #links .links_box a {
-      display: block;
-      width: 100%;
-      height: 100%;
-      font-size: 22px;
-      color: #2E303D;      
-  }
+}
+#links ul li {
+    float: left;
+    margin: 0 20px 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #e3e3e3;
+}
+#links ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 155px;
+    font-size: 22px;
+}
+#links ul li:hover a h3 {
+    color: #4983b9;
+}
+
+#links .item2 li {
+    width: 560px;
+    height: 250px;
+}
+
+#links .item2 .item01 {
+    background: url(../images/links_img_01.png) center 40% no-repeat;
+}
+#links .item2 .item01:hover {
+    background: url(../images/links_img_01r.png) center 40% no-repeat;
+}
+#links .item2 .item02 {
+    background: url(../images/links_img_02.png) center 40% no-repeat;
+}
+#links .item2 .item02:hover {
+    background: url(../images/links_img_02r.png) center 40% no-repeat;
+}
+
+
+
