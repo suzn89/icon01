@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>훈련관리</title>
+    <link href="./css/incon_reset.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    
+
+</head>
+<body>
+    <header>
+        <div id="header_cont">
+            <h1><a href="#">신고통합 모의훈련 시스템</a></h1>
+            <h2>모의훈련</h2>
+            <div id="adm_menu" class="adminmn"><span><i class="fa fa-user"></i>관리자</span>
+                <ul class="dropdown">
+                    <li><a href="#"><i class="fa fa-cog"></i>설정</a></li>
+                    <li><a href="#"><i class="fa fa-sign-out"></i>로그아웃</a></li>
+                </ul>
+            </div>
+
+
+        </div>  
+    </header>
+    <section id="contents">
+        <div class="page_tit">
+            <h3>2019년도 2월 정기훈련<span>평가자: 박문수</span></h3>
+            <ul class="btn-group">
+                <li><a href="#" class="btn-basic"><i class="fa fa-play"></i>훈련시작</a></li>
+            </ul>
+            
+            
+        </div>
+        <!-- 탭시작 -->       
+        <div id="tab01">
+            <ul>
+                <li class="on"><a href="#">시나리오</a><sup>2</sup></li>
+                <li><a href="#">대상자<sup>2</sup></a></li>
+                </ul>
+        </div>
+        <div id="tab_cont">
+            <div class="tab_items tblwrap">
+                <table class="gray_tbl">
+                <tr>
+                    <th colspan="2">시나리오</th>
+                    <th class="txc">단계</th>
+                    <th>마지막 수정일시</th>
+                </tr>
+                <tr>
+                    <td class="td_80px txc"><img src="images/sce01.png" alt="뺑소니" /></td>
+                    <td class="td_70pc">
+                        <p class="tbl_tit">경찰 접수 소방 이관 뺑소니 교통사고</p>
+                        <span>소방>>경찰</span>
+                        <p class="ellipsis">아파트 주변에서 뺑소니 교통사고가 발생하여 피해자가 머리에 피를 흘리며 의식불명 상태에 빠져 있고 사고 발생 시 주변을 지나던 신고자가 119에 신고를 하는 상황임. 신고자가 사고위치, 발생하여 피해자가 머리에 피를 흘리며 의식불명 상태에 빠져 있고 사고 발생 시 주변을 지나던 신고자가 119에 신고를 하는 상황임. 신고자가 사고위치,</p>
+                    </td>
+                    <td class="txc ptcolor">5</td>
+                    <td>
+                        <dl>
+                            <dt>박진영</dt>
+                            <dd>2018년 12월 21일 10:50:28</dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_80px txc"><img src="images/sce02.png" alt="해경" /></td>
+                    <td class="td_70pc">
+                        <p class="tbl_tit">경찰 접수 해경 이관 선박사고</p>
+                        <span>경찰 >> 해경</span>
+                        <p class="ellipsis">낚시에 간 사람들이 배가 암초에 걸려 좌초되어 경찰에 구조 요청을 한 상황임. 신고자가 정확한 위치를 파악하지 못하고 있으며 ...</p>
+                    </td>
+                    <td class="txc ptcolor">5</td>
+                    <td>
+                        <dl>
+                            <dt>박진영</dt>
+                            <dd>2018년 12월 21일 10:50:28</dd>
+                        </dl>
+                    </td>
+                </tr>
+                </table>
+            </div>
+            <div class="tab_items">
+                
+            </div>
+        </div>
+        <!-- 탭 끝-->
+        <div id="date_view">
+            <dl>
+                <dt>예정일</dt>
+                <dd>2019-02-21 09:00</dd>
+            </dl>
+            <dl>
+                <dt>시작일</dt>
+                <dd>-- : --</dd>
+            </dl>
+            <dl>
+                <dt>종료일</dt>
+                <dd>-- : --</dd>
+            </dl>
+        </div>
+
+        <!-- 페이지 두번째 큰제목 시작-->
+        <div class="page_2dpth_tit">
+            <h4>훈련 일정</h4>
+            <div class="radio-con">
+                <input id="r1" type="radio" name="r" checked />
+                <label for="r1" class="input-element">전체</label>
+                <input id="r2" type="radio" name="r" />
+                <label for="r2" class="input-element">예정</label>
+                <input id="r3" type="radio" name="r" />
+                <label for="r3" class="input-element">진행</label>
+                <input id="r5" type="radio" name="r" />
+                <label for="r5" class="input-element">완료</label>
+            </div>    
+        </div>
+        <div class="tbl220">
+            <table class="basic_tbl">
+            <colgroup>
+            <col width="*">
+            <col width="80px">
+            <col width="80px">
+            <col width="150px">
+            <col width="150px">
+            <col width="150px">
+            <col width="170px">
+            </colgroup>
+            <tr>
+                <th>훈련명</th>
+                <th class="txc">대상자</th>
+                <th class="txc">평가자</th>
+                <th>예정일</th>
+                <th>시작일</th>
+                <th>종료일</th>
+                <th>마지막 수정일시</th>
+            </tr>
+            <tr>
+                <td>2019년도 4월 정기훈련</td>
+                <td class="txr ptcolor"><strong>10</strong></td>
+                <td class="txc ptcolor"><strong>박문수</strong></td>
+                <td>2019-04-21 09:00</td>
+                <td>-- : --</td>
+                <td>-- : --</td>
+                <td>2019-01-10 11:12:50</td>
+            </tr>
+            <tr>
+                <td>2019년도 4월 정기훈련</td>
+                <td class="txr ptcolor"><strong>8</strong></td>
+                <td class="txc ptcolor"><strong>박문수</strong></td>
+                <td>2019-04-21 09:00</td>
+                <td>-- : --</td>
+                <td>-- : --</td>
+                <td>2019-01-10 11:12:50</td>
+            </tr>
+            <tr>
+                <td>2019년도 4월 정기훈련</td>
+                <td class="txr ptcolor"><strong>5</strong></td>
+                <td class="txc ptcolor"><strong>박문수</strong></td>
+                <td>2019-04-21 09:00</td>
+                <td>-- : --</td>
+                <td>-- : --</td>
+                <td>2019-01-10 11:12:50</td>
+            </tr>  
+            <tr>
+                <td>2019년도 4월 정기훈련</td>
+                <td class="txr ptcolor"><strong>3</strong></td>
+                <td class="txc ptcolor"><strong>박문수</strong></td>
+                <td>2019-04-21 09:00</td>
+                <td>2019-01-21 09:00</td>
+                <td>2019-01-21 09:00</td>
+                <td>2019-01-10 11:12:50</td>
+            </tr>     
+            <tr>
+                <td>2019년도 4월 정기훈련</td>
+                <td class="txr ptcolor"><strong>5</strong></td>
+                <td class="txc ptcolor"><strong>박문수</strong></td>
+                <td>2019-04-21 09:00</td>
+                <td>-- : --</td>
+                <td>-- : --</td>
+                <td>2019-01-10 11:12:50</td>
+            </tr>  
+            <tr>
+                <td>2019년도 4월 정기훈련</td>
+                <td class="txr ptcolor"><strong>3</strong></td>
+                <td class="txc ptcolor"><strong>박문수</strong></td>
+                <td>2019-04-21 09:00</td>
+                <td>2019-01-21 09:00</td>
+                <td>2019-01-21 09:00</td>
+                <td>2019-01-10 11:12:50</td>
+            </tr>             
+        </table>
+        </div> <!-- height 220 table end-->
+
+    </section>
+
+    <script src="js/adminmn.js"></script> <!--관리자 드롭다운메뉴 js-->
+    
+
+</body> 
+</html>
+ 

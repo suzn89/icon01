@@ -38,6 +38,14 @@ header h1 {
     margin: 48px 0;
     line-height: 1.5;
 }
+header h2 {
+    display: inline-block;
+    margin: 57px 0 57px 20px;
+    padding-left: 20px;
+    font-size: 36px;
+    color: #538fc7;
+    border-left: 2px solid #7d7d7d;
+}
 header h1 a { 
     font-size: 36px;
     font-weight: bold; 
@@ -55,6 +63,7 @@ header #header_cont .adminmn {
 }
 
 section { width: 1600px; margin: 0 auto;}
+#contents { margin: 20px auto 40px; }
 
 /* 공통 */
 .adminmn {
@@ -132,6 +141,7 @@ section { width: 1600px; margin: 0 auto;}
   .adminmn.active .dropdown {
     border-bottom: 1px solid #E3E3E3;
     max-height: 400px;
+    z-index: 999;
   }
   
 
@@ -298,5 +308,258 @@ section { width: 1600px; margin: 0 auto;}
 #links .item4 .item09:hover {
     background: url(../images/links_img_09r.png) center 40% no-repeat;
 }
+.page_tit {
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+.page_tit::after {
+    display:block;
+    content: '';
+    clear: both;
+}
+.page_tit h3 {
+    float: left;
+   font-size: 28px;   
+   color: #7d7d7d; 
+}
+.page_tit h3 > span {
+    margin-left: 10px;
+    font-size: 18px;       
+}
+#tab01 {
+    margin-bottom: 20px;
+}
+#tab01:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+#tab01 ul li {
+    float:left;
+    margin-right: 50px;
+}
+#tab01 ul li a {
+    font-size: 14px;
+    color: #7d7d7d
+}
 
-9
+#tab01 ul .on sup {
+    color: #538fc7;    
+}
+#tab01 ul .on a {
+    border-bottom: 2px solid #538fc7;
+    color: #538fc7;
+}
+.tblwrap {
+    background: #E3E3E3;
+    border-radius: 10px;
+    padding: 0 8px 8px 8px;
+}
+.gray_tbl {
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 100%;
+}
+.gray_tbl td {
+    font-size:14px;
+    padding:10px 10px;
+    color:#7D7D7D;
+    background-color:#F8F8F8;
+    border-bottom: 1px solid #E3E3E3;
+    vertical-align: middle;
+    line-height: 130%;
+}
+.gray_tbl th {
+    font-size:14px;
+    text-align: left;
+    padding:10px 10px;
+    color:#7D7D7D;
+}
+
+table .td_80p { 
+    width: 80px;
+}
+table .td_70pc { 
+    width: 70%;
+}
+.gray_tbl .ellipsis {
+    width: 1100px;
+    overflow:hidden;
+    white-space:nowrap;
+    word-wrap: normal;
+    text-overflow:ellipsis;
+    font-size: 14px;    
+}
+.gray_tbl .tbl_tit {
+    font-size: 16px;
+    color: #538FC7;
+}
+.gray_tbl span {
+    font-size: 12px;
+}
+.gray_tbl dl dt {
+    color: #538fc7;
+}
+#date_view {
+    margin-top: 15px;
+}
+#date_view dl {
+    margin-right:45px;
+    float: left;
+}
+#date_view dl dt {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+#date_view dl dd {
+    font-size: 16px;
+    color: #2E303D
+}
+
+
+.page_2dpth_tit {
+    position: relative;
+    margin-top: 160px;
+    margin-bottom: 20px;    
+}
+.page_2dpth_tit::after {
+    display:block;
+    content: '';
+    clear: both;
+}
+.page_2dpth_tit h4 {
+    float:left;
+    font-size: 22px;
+    color: #7d7d7d;
+}
+.tbl220 {
+    width: 100%;
+    height: 220px;
+    overflow-y: scroll;
+}
+
+.basic_tbl {
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 100%;
+}
+.basic_tbl td {
+    font-size:14px;
+    padding:10px 10px;
+    color:#7D7D7D;
+    border-bottom: 1px solid #F8F8F8;
+    vertical-align: middle;    
+}
+.ptcolor {
+    color: #538FC7 !important;
+}
+.basic_tbl th {
+    font-size:14px;
+    text-align: left;
+    padding:10px 10px;
+    color:#7D7D7D;
+    background: #F8F8F8;
+}
+.basic_tbl tr:hover td {
+    background: #80A0D5;
+    color: #fff;
+}
+.basic_tbl tr:hover .ptcolor {
+    color: #28436E !important
+}
+
+/* 공통적용 CSS */
+.btn-group {
+    display:block;
+    position: absolute;
+    right:0;
+    bottom:-5px;
+}
+.btn-group li {
+    display:inline-block;
+    margin-left: 10px;
+}
+.btn-basic {
+    padding: 8px 15px;
+    font-size:14px;
+    color: #538fc7;
+    border-radius: 5px;
+    border: 1px solid #538fc7;
+}
+.btn-basic:hover {
+    color: #ffffff;
+    background: #538FC7;
+    border-radius: 5px;
+    border: 1px solid #538fc7;
+}
+.btn-basic:active {
+    color: #ffffff;
+    background: #4983b9;
+    border-radius: 5px;
+    border: 1px solid #4983b9;
+}
+.btn-basic i {
+    margin-right: 5px;
+}
+.radio-con{
+    position:absolute;
+    right: 0;
+    bottom: -5px;
+	box-sizing:border-box;
+	padding:0px;
+	display:inline-block;
+	overflow:hidden;
+	
+}
+.radio-con input[type="radio"]{
+	position:absolute;
+	left:-1000px;
+}
+.radio-con label{
+    color: #538fc7;
+	line-height:24px;
+	border-right-width:0;
+	border-radius:0;
+	display:inline-block;
+	padding:5px 15px;
+	cursor:pointer;
+	transition:0.1s;
+    -moz-user-select:none;
+    
+}
+.input-element{
+	font-size:14px;
+	background-color:#fff;
+	border:1px solid #538fc7;
+	border-radius:5px;
+	float:left;
+}
+.radio-con label:first-of-type{
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.radio-con label:last-of-type{
+	border-right-width:1px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.radio-con input[type="radio"]:checked + label{
+	color:#fff;
+	background-color:#538fc7;
+	border-color:#538fc7;
+}
+.radio-con input[type="radio"]:checked + label + input + label{
+	border-left-color:#538fc7;
+}
+.radio-con input[type="radio"]:disabled + label{
+	color:#c0c4c8;
+}
+
+
+.txc { 
+    text-align: center !important
+}
+.txr { 
+    text-align: right !important
+}
