@@ -1,4 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/NotoSansKR-Thin.woff2) format('woff2'),
+         url(../fonts/NotoSansKR-Thin.woff) format('woff'),
+         url(../fonts/NotoSansKR-Thin.otf) format('opentype');
+  }
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/NotoSansKR-Light.woff2) format('woff2'),
+         url(../fonts/NotoSansKR-Light.woff) format('woff'),
+         url(../fonts/NotoSansKR-Light.otf) format('opentype');
+  }
+  @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 400;
+     src: url(../fonts/NotoSansKR-Regular.woff2) format('woff2'),
+          url(../fonts/NotoSansKR-Regular.woff) format('woff'),
+          url(../fonts/NotoSansKR-Regular.otf) format('opentype');
+   }
+  @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 500;
+     src: url(../fonts/NotoSansKR-Medium.woff2) format('woff2'),
+          url(../fonts/NotoSansKR-Medium.woff) format('woff'),
+          url(../fonts/NotoSansKR-Medium.otf) format('opentype');
+   }
+  @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 700;
+     src: url(../fonts/NotoSansKR-Bold.woff2) format('woff2'),
+          url(../fonts/NotoSansKR-Bold.woff) format('woff'),
+          url(../fonts/NotoSansKR-Bold.otf) format('opentype');
+   }
+  @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 900;
+     src: url(../fonts/NotoSansKR-Black.woff2) format('woff2'),
+          url(../fonts/NotoSansKR-Black.woff) format('woff'),
+          url(../fonts/NotoSansKR-Black.otf) format('opentype');
+   } 
+   
 
 
 body { 
@@ -343,6 +391,11 @@ section { width: 1600px; margin: 0 auto;}
     font-size: 14px;
     color: #7d7d7d
 }
+#tab01 ul li i {
+    
+    color: #D86E74;
+}
+
 
 #tab01 ul .on sup {
     color: #538fc7;    
@@ -351,6 +404,132 @@ section { width: 1600px; margin: 0 auto;}
     border-bottom: 2px solid #538fc7;
     color: #538fc7;
 }
+
+#tab_cont .boxcon {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #E3E3E3;
+}
+#tab_cont .tr_list01 {
+    margin-top: 20px;
+}
+#tab_cont .tr_list01 > li {
+    position: relative;
+    display:inline-block;
+    width: 375px;
+    height: 160px;
+    margin-right: 20px;
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 8px;    
+}
+#tab_cont .tr_list01 li:nth-child(4n) {
+    margin-right: 0;
+    }
+#tab_cont .tr_list01 li .boxtitle {
+    width: 240px;
+    font-size: 16px;
+    float: left;
+    overflow:hidden;
+    white-space:nowrap;
+    word-wrap: normal;
+    text-overflow:ellipsis;
+}
+#tab_cont .tr_list01 .normaltxt {
+    float: right;
+    margin-top: 20px;
+    width: 210px;
+    line-height: 120%;
+    font-size: 14px;    
+}
+#tab_cont .tr_list01 .select01 {
+    background: #97bcde;
+    color: #fff;
+}
+#tab_cont .tr_list01 .select02 {
+    background: #567896;
+    color: #fff;
+}
+.tr_list01 ol {
+    position: absolute;
+    right: 20px;
+     
+}
+.tr_list01 ol li {
+    display:table-cell;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+#tab_cont .tr_list01 .acc_img {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+#tab_cont .row5 > li {
+    width: 292px;
+    height: 125px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#tab_cont .row5 li:nth-child(5n) {
+    margin-right: 0;
+    
+}
+#tab_cont .row5 li:nth-child(4n) {
+    margin-right: 20px;
+}
+#tab_cont .tr_list01 dl {
+    float: left;
+    margin-left: 25px;
+}
+#tab_cont .tr_list01 dt {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+#tab_cont .tr_list01 dd {
+    font-size: 14px;
+    line-height: 150%;
+}
+.tr_list01 .job_img {
+    float: left;
+}
+
+#warn_layer {
+    position: absolute;
+    width: 380px;
+    padding: 15px 17px;
+    border-radius: 5px;
+    background: #F3DEE0;
+    -moz-box-shadow: 0px 1px 10px #f8f8f8;
+    -webkit-box-shadow: 0px 1px 10px #f8f8f8;
+    box-shadow: 0px 1px 10px #f8f8f8;
+    left: 50%;
+    top: 230px;
+    z-index: 999;
+    margin-left: -190px;    
+}
+#warn_layer h5 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #D86E74;     
+}
+#warn_layer p {
+    font-size: 14px;
+    color: #7d7d7d;     
+}
+#warn_layer .closePop {
+    outline: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    color: #7d7d7d
+}
+
 .tblwrap {
     background: #E3E3E3;
     border-radius: 10px;
@@ -468,6 +647,110 @@ table .td_70pc {
 .basic_tbl tr:hover .ptcolor {
     color: #28436E !important
 }
+
+.tr_list > li {
+    position:relative;
+    float: left;
+    width: 296px;
+    height: 150px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #7d7d7d;
+    border-radius: 8px;
+    border: 1px solid #E3E3E3;
+}
+.tr_list > li a {
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.tr_list > li p { 
+    width: 254px;
+    overflow:hidden;
+    white-space:nowrap;
+    word-wrap: normal;
+    text-overflow:ellipsis;
+    font-size: 14px;  
+    color: #7d7d7d;
+}
+.tr_list > li .num {
+    margin-right: 5px;
+    color: #e3e3e3;
+}
+[class^="step_"] {
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    font-size: 0;
+    text-indent: -9999em;
+}
+.tr_list .step_01 {
+    border-bottom: 28px solid #b1cce6;
+}
+.tr_list .step_02 {
+    border-bottom: 28px solid #538fc7;
+}
+.tr_list .step_03 {
+    border-bottom: 28px solid #e2e2e2;
+}
+.legends {
+    float: right;
+    margin-bottom: 3px;
+}
+.tr_list::after, .tr_list::before {
+    display:block;
+    content: '';
+    clear: both;
+}
+.legends li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.legends li i {
+    margin-right: 5px;
+}
+.legends li:nth-child(1) i {
+    color: #538fc7;
+}
+.legends li:nth-child(2) i {
+    color: #b1cce6;
+}
+.legends li:nth-child(3) i {
+    color: #e2e2e2;
+}
+
+.img_acc_car {
+    background: url(../images/img_car_acci.png) no-repeat;
+}
+.img_acc_ship {
+    background: url(../images/img_ship.png) no-repeat;
+}
+
+[class^="img_acc_"] {
+    background-position: 20px bottom;
+
+}
+.tr_list ol {
+    float: right;
+    margin-top: 40px;
+}
+.tr_list ol li {
+    display:table-cell;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+  
+.tr_list > li:nth-child(5n) {
+    margin-right: 0 !important;
+}
+
 
 /* 공통적용 CSS */
 .btn-group {
