@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>훈련관리</title>
+    <link href="./css/incon_reset.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+    
+    
+
+</head>
+<body>
+    <header>
+        <div id="header_cont">
+            <h1><a href="#">신고통합 모의훈련 시스템</a></h1>
+            <h2>모의훈련</h2>
+            <div id="adm_menu" class="adminmn"><span><i class="fa fa-user"></i>관리자</span>
+                <ul class="dropdown">
+                    <li><a href="#"><i class="fa fa-cog"></i>설정</a></li>
+                    <li><a href="#"><i class="fa fa-sign-out"></i>로그아웃</a></li>
+                </ul>
+            </div>
+        </div>  
+    </header>
+    <section id="contents">
+        <div class="page_tit">
+            <h3>소방 접수 경찰 이관 뺑소니 교통사고<span>평가자: 박문수</span></h3>
+            <ul class="btn-group">
+                <li><a href="#" class="btn-basic"><i class="fa fa-play"></i>시작</a></li>
+            </ul>
+            
+            
+        </div>
+
+        <div id="process">
+            <div class="box__info row3">
+                <h5>훈련 정보</h5>
+                <ul>
+                    <li><img src="images/img_car_acci_gr.png" alt="교통사고" /><br>교통사고</li>
+                    <li><img src="images/img_fire_gr.png" alt="소방" />
+                        <img src="images/pass.png" alt="이관" />
+                        <img src="images/img_pol_gr.png" alt="소방" />
+                        <br>소방 > 경찰</li>
+                </ul>
+            </div>
+            <div class="box__info row3">
+                <h5>훈련상태</h5>
+                <ul>
+                    <li><img src="images/img_due.png" alt="예정" /><br>예정</li>
+                </ul>
+            </div>
+            <div class="box__info row3">
+                <h5>훈련주소</h5>
+                <ul class="bullet">
+                    <li>대구광역시 달성군 구지면 구지서로 1</li>
+                    <li>대구광역시 달성군 구지면 수리리 1297 중앙119구조본부</li>
+                </ul>
+            </div>
+            <div class="box__info row1">
+                <h5>훈련개요</h5>
+                <div class="textbox">
+                        아파트 주변에서 뺑소니 교통사고가 발생하여 피해자가 머리에 피를 흘리며 의식불명 상태에 빠져 있고 사고 발생 시 주변을 지나던 신고자가 119에 신고를 하는 상황임.
+                        신고자가 사고 위치, 피해자의 상태, 도주 차량의 차량번호 뒷부분 4자리 등을 기억하여 비교적 정확한 내용을 신고한 상황임. 
+                        소방 접수자는 사건 위치 확인 후 구급차를 편성하여 출동시키고 시/도 이관을 통해 경찰로 신고 이관을 해야 함. 경찰은 신고를 이관 받은 후 뺑소니 차량 검거를 위한 조치를 취한다.
+                        강사는 적절한 시기에 뺑소니 차량이 검거되었음을 알려 사건을 종료 시킨다. 
+                </div>
+            </div>
+        <div id="date_view" class="ftgray">
+            <dl>
+                <dt class="hover">시작일시</dt>
+                <dd>-- : --</dd>
+            </dl>
+            <dl>
+                <dt>종료일시</dt>
+                <dd>-- : --</dd>
+            </dl>
+        </div>
+
+
+        </div>
+        
+
+
+        <!-- 탭시작 -->       
+        <div id="tab01">
+            <ul>
+                <li class="on"><a href="#">수행항목</a><sup>2</sup></li>
+                <li><a href="#">대상자</a><sup>0</sup></li>
+                <li class="lock"><a href="#">접수대</a><sup><img src="images/sup_lock.png" /></sup></li>
+            </ul>
+        </div>
+        <div id="tab_cont">
+            <div class="tab_items boxcon">
+                <p>수행이 완료된 항목의 '완료' 버튼을 클릭하여 완료 처리하십시요.</p>
+                <table class="list_tbl">
+                <colgroup>
+                <col width="50px">
+                <col width="80px">
+                <col width="*">
+                </colgroup>
+                <tr>
+                    <td><input type="checkbox" id="chc">
+                        <label for="chc">체크박스</label></td>
+                    <td><img src="images/person01.png" alt="강사" /></td>
+                    <td>전화를 건다</td>
+                </tr>
+                <tr>
+                    <td>체크박스</td>
+                    <td><img src="images/person02.png" alt="접수자" /></td>
+                    <td><p>지령 버튼을 누르고 "구급출동 청아람 아파트 앞 차대 보행자 교통사고. 피해자는 현재 두부에 출혈이 있고 의식이 없는 상태임"이라는 내용으로 방송을 내보낸다.</p><span>강사</span></td>
+                </tr>
+                <tr>
+                    <td>체크박스</td>
+                    <td><img src="images/person01.png" alt="강사" /></td>
+                    <td><p>전화를 받는다</p><span>강사</span></td>
+                </tr>
+                <tr>
+                    <td>체크박스</td>
+                    <td><img src="images/person02.png" alt="접수자" /></td>
+                    <td><p>전화를 받는다</p><span>접수자 >> 제한시간: 10 >> 배점:50</span></td>
+                </tr>
+                <tr>
+                    <td>체크박스</td>
+                    <td><img src="images/person01.png" alt="강사" /></td>
+                    <td><p>재난(도로명/지번)주소에 청아람 아파트의 위치를 검색하여 입력하고 GIS에 해당 위치가 표시됨을 확인한다.</p><span>강사</span></td>
+                </tr>
+                <tr>
+                    <td>체크박스</td>
+                    <td><img src="images/person01.png" alt="강사" /></td>
+                    <td><p>전화를 받는다</p><span>접수자 >> 제한시간: 10 >> 배점: 30</span></td>
+                </tr>
+                <tr>
+                    <td>체크박스</td>
+                    <td><img src="images/person02.png" alt="접수자" /></td>
+                    <td><p>전화를 받는다</p><span>접수자 >> 제한시간: 1 >> 배점: 30</span></td>
+                </tr>
+                <tr>
+                    <td>체크박스</td>
+                    <td><img src="images/person01.png" alt="강사" /></td>
+                    <td><p>"타시도 이첩" 버튼을 눌러 신고정보 확인 후 경찰 - 관할서를 선택하고 '신고이관' 버튼을 눌러 신고를 이관한다.</p><span>강사</span></td>
+                </tr>
+
+
+                </table>
+            </div>
+            <div class="tab_items">
+                
+            </div>
+        </div>
+        <!-- 탭 끝-->
+       
+      
+        
+
+    </section>
+
+    
+    
+
+</body> 
+</html>
+ 
