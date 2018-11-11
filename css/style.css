@@ -1097,6 +1097,18 @@ table .td_70pc {
 .bullet_sky li:nth-child(2) {
     background: url(../images/bull02_sky.png) left 50% no-repeat;
 }
+#bg01 {
+    padding-left: 70px;
+    background: url(../images/calendar.png) left top no-repeat;
+}
+
+
+
+
+
+
+
+
 /* 공통적용 CSS */
 .btn-group {
     display:block;
