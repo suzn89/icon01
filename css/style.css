@@ -817,14 +817,38 @@ table .td_70pc {
     font-size: 14px;
     color: #e3e3e3
 }
-#process ul li {
-    margin-right: 60px;
-    display: inline-block;
-    text-align: center;
 
+
+
+#process .box_table {
+    display:table-cell;
+    height: 100px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-right: 60px;
 }
-#process ul li > img {
-    margin-bottom: 5px;
+#process .box_table span {
+    margin-top: 10px;
+    display:block;
+}
+#process .box_table ul li {
+    height: 91px;
+    line-height: 91px;
+    float: left;
+    padding: 0 8px;
+}
+#process .box_table ul li > img {
+    max-height: 100%;
+    vertical-align: middle;
+}
+.imgwr { 
+    position: relative;
+    height: 91px;
+}
+.imgwr > img {
+    position: absolute;
+    left: 0;
+    bottom: 0
 }
 .ftgray {
     color: #E3E3E3
@@ -839,16 +863,22 @@ table .td_70pc {
 .ftgray dl dd {
     padding-left: 15px
 }
-.bullet li {
+[class^="bullet_"]  li {
     padding-left:30px;
     font-size: 16px;
     line-height: 150%
 }
-.bullet li:nth-child(1) {
+.bullet_ li:nth-child(1) {
     background: url(../images/bull01.png) left 50% no-repeat;
 }
-.bullet li:nth-child(2) {
+.bullet_ li:nth-child(2) {
     background: url(../images/bull02.png) left 50% no-repeat;
+}
+.bullet_sky li:nth-child(1) {
+    background: url(../images/bull01_sky.png) left 50% no-repeat;
+}
+.bullet_sky li:nth-child(2) {
+    background: url(../images/bull02_sky.png) left 50% no-repeat;
 }
 /* 공통적용 CSS */
 .btn-group {
