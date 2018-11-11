@@ -358,6 +358,7 @@ section { width: 1600px; margin: 0 auto;}
 }
 .page_tit {
     position: relative;
+    height:40px;
     margin-bottom: 40px;
     
 }
@@ -674,6 +675,7 @@ table .td_70pc {
 
 .page_2dpth_tit {
     position: relative;
+    height: 30px;
     margin-top: 160px;
     margin-bottom: 20px;    
 }
@@ -684,6 +686,7 @@ table .td_70pc {
 }
 .page_2dpth_tit h4 {
     float:left;
+    
     font-size: 22px;
     color: #7d7d7d;
 }
