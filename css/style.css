@@ -1103,6 +1103,23 @@ table .td_70pc {
 }
 
 
+/*페이징*/
+.tablepaging{ position:relative;}
+.tablepaging .pagebt{display:block;position:absolute;right:0;top:-25px;z-index:10;}
+.tablepaging .pagebt + .pagebt {right:110px;}
+.paging{width:100%;margin-top:30px; text-align:center; position:relative;}
+
+.paging a{display:inline-block;width:33px;height:31px; margin-left:2px;font-size:12px;text-align:center;line-height:31px;font-weight:normal;color:#7D7D7D;border:solid 1px #d0d0d0;}
+.paging a:hover{border:solid 1px #538fc7; color:#fff; background:#538fc7; }
+.paging strong {display:inline-block;width:33px;height:31px;margin-left:2px;font-size:12px;text-align:center;line-height:31px;font-weight:600;border:solid 1px #538fc7; color:#fff; background:#538fc7; }
+.paging a.pprev{width:40px; height:31px; margin:0; border:0; background:url(../images/page_L.png) no-repeat left top;}
+.paging a.pprev:hover{background-color:none;}
+.paging a.prev:hover{background-color:none;}
+.paging a.prev{width:40px; height:31px; margin:0; border:0; background:url(../images/page_L.png) no-repeat -40px top;}
+.paging a.next{width:41px; height:31px; margin:0; border:0; background:url(../images/page_R.png) no-repeat left top;}
+.paging a.next:hover{background-color:none;}
+.paging a.nnext:hover{background-color:none;}
+.paging a.nnext{width:41px; height:31px; margin:0; border:0; background:url(../images/page_R.png) no-repeat -42px top;}
 
 
 
@@ -1280,7 +1297,11 @@ table .td_70pc {
 }
 
 
-
+.hidden {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
 .txc { 
     text-align: center !important
 }
