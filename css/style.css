@@ -673,6 +673,38 @@ section {
 	border:none;
 	color:#7d7d7d
 }
+#warn_layer03 {
+	position:absolute;
+	width:380px;
+	padding:15px 17px;
+	border-radius:5px;
+	background:#DBEEF8;
+	-moz-box-shadow:0px 1px 10px #f8f8f8;
+	-webkit-box-shadow:0px 1px 10px #f8f8f8;
+	box-shadow:0px 1px 10px #f8f8f8;
+	left:50%;
+	top:230px;
+	z-index:999;
+	margin-left:-190px;
+}
+#warn_layer03 h5 {
+	margin-bottom:10px;
+	font-size:22px;
+	color:#538FC7;
+}
+#warn_layer03 p {
+	font-size:14px;
+	color:#538FC7;
+}
+#warn_layer03 .closePop {
+	outline:none;
+	position:absolute;
+	right:10px;
+	top:10px;
+	background:none;
+	border:none;
+	color:#7d7d7d
+}
 .btm-btns {
     margin-top: 20px;
     width: 100%;
