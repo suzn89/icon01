@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>훈련관리</title>
+<link href="./css/incon_reset.css" rel="stylesheet" type="text/css">
+<link href="./css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+</head>
+<body>
+<header>
+<div id="header_cont">
+	<h1><a href="#">신고통합 모의훈련 시스템</a></h1>
+	<h2>시나리오 관리</h2>
+	<div id="adm_menu" class="adminmn">
+		<span><i class="fa fa-user"></i>관리자</span>
+		<ul class="dropdown">
+			<li><a href="#"><i class="fa fa-cog"></i>설정</a></li>
+			<li><a href="#"><i class="fa fa-sign-out"></i>로그아웃</a></li>
+		</ul>
+	</div>
+</div>
+</header>
+<section id="contents">
+<div class="page_tit">
+	<h3></h3>
+	<ul class="btn-group">
+		<li><a href="#" class="btn-basic"><i class="fa fa-play"></i>시작</a></li>
+	</ul>
+</div>
+<div id="process">
+	<div class="box__info row3" style="height:50px;">
+		<h5>시나리오 명</h5>
+		<div>
+			<p>
+				 소방접수 경찰이관 뺑소니 교통사고
+			</p>
+		</div>
+	</div>
+	<div class="box__info row3" style="height:50px;">
+		<h5>시나리오 유형</h5>
+		<div>
+			<p>
+				 사고
+			</p>
+		</div>
+	</div>
+	<div class="box__info row3" style="height:50px;">
+		<h5>사용여부</h5>
+		<div>
+			<p>
+				 사용
+			</p>
+		</div>
+	</div>
+	<div class="box__info row3" style="height:80px;">
+		<h5>시나리오 주소</h5>
+		<ul class="bullet_">
+			<li>대구광역시 달성군 구지면 과학마을로 70 과학마을청아람아파트 </li>
+			<li>대구광역시 달성군 구지면 응암리 1210 과학마을청아람아파트 </li>
+		</ul>
+	</div>
+</div>
+<!-- process end -->
+<!-- 탭시작 -->
+<div id="tab01">
+	<ul>
+		<li class="on"><a href="#">설명</a><sup>2</sup></li>
+		<li><a href="#">행위</a><sup>0</sup></li>
+	</ul>
+</div>
+<div id="tab_cont">
+	<div class="tab_items graybox">
+		<p>
+			 아파트 주변에서 뺑소니 교통사고가 발생하여 피해자가 머리에 피를 흘리며 의식불명 상태에 빠져 있고 사고 발생 시 주변을 지나던 신고자가 119에 신고를 하는 상황임.
+		</p>
+		<p>
+			 신고자가 사고 위치, 피해자의 상태, 도주 차량의 차량번호 뒷부분 4자리 등을 기억하여 비교적 정확한 내용을 신고한 상황임.
+		</p>
+		<p>
+			 소방 접수자는 사건 위치 확인 후 구급차를 편성하여 출동시키고 시/도 이관을 통해 경찰로 신고 이관을 해야 함. 경찰은 신고를 이관 받은 후 뺑소니 차량 검거를 위한 조치를 취한다.
+		</p>
+		<p>
+			 강사는 적절한 시기에 뺑소니 차량이 검거되었음을 알려 사건을 종료 시킨다.
+		</p>
+	</div>
+	<div class="tab_items">
+	</div>
+</div>
+<!-- 탭 끝-->
+<!-- 페이지 두번째 큰제목 시작-->
+<div class="page_2dpth_tit">
+	<h4>시나리오</h4>
+	<div class="radio-con">
+		<input id="r1" type="radio" name="r" checked/>
+		<label for="r1" class="input-element">전체</label>
+		<input id="r2" type="radio" name="r"/>
+		<label for="r2" class="input-element">사용</label>
+		<input id="r5" type="radio" name="r"/>
+		<label for="r5" class="input-element">불가</label>
+	</div>
+</div>
+<div class="tbl220">
+	<table class="basic_tbl">
+	<colgroup>
+	<col width="100px">
+	<col width="*">
+	<col width="100px">
+	<col width="100px">
+	<col width="100px">
+	<col width="200px">
+	</colgroup>
+	<tr>
+		<th>
+			 유형
+		</th>
+		<th>
+			 이름
+		</th>
+		<th>
+			 접수기관
+		</th>
+		<th>
+			 이관기관
+		</th>
+		<th>
+			 사용여부
+		</th>
+		<th>
+			 마지막 수정일시
+		</th>
+	</tr>
+	<tr>
+		<td>
+			 구조
+		</td>
+		<td>
+			 소방접수 해경이관 선박조난
+		</td>
+		<td>
+			 소방
+		</td>
+		<td>
+			 해경
+		</td>
+		<td>
+			 사용
+		</td>
+		<td>
+			 2019-01-10 11:12:50
+		</td>
+	</tr>
+	<tr>
+		<td>
+			 구급
+		</td>
+		<td>
+			 소방접수 경찰이관 교통사고
+		</td>
+		<td>
+			 소방
+		</td>
+		<td>
+			 경찰
+		</td>
+		<td>
+			 사용
+		</td>
+		<td>
+			 2019-01-10 11:12:50
+		</td>
+	</tr>
+	<tr>
+		<td>
+			 사고
+		</td>
+		<td>
+			 경찰접수 소방이관 교통사고
+		</td>
+		<td>
+			 소방
+		</td>
+		<td>
+			 경찰
+		</td>
+		<td>
+			 사용
+		</td>
+		<td>
+			 2019-01-10 11:12:50
+		</td>
+	</tr>
+	</table>
+</div>
+<!-- height 220 table end-->
+</section>
+</body>
+</html>

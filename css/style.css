@@ -802,7 +802,7 @@ table .td_70pc {
 .page_2dpth_tit {
 	position:relative;
 	height:30px;
-	margin-top:160px;
+	margin-top:100px;
 	margin-bottom:20px;
 }
 .page_2dpth_tit::after {
@@ -964,6 +964,7 @@ table .td_70pc {
 	margin-bottom:30px;
 	margin-right:26px;
 }
+
 #process .row1 {
 	width:1600px;
 }
@@ -1382,6 +1383,20 @@ input[type="text"],input[type="password"],select {
 	width:0px;
 	text-indent:-999em
 }
+.graybox {
+	width: 100%;
+	padding: 20px;
+	height: 200px;
+	background: #f8f8f8;
+	border-radius: 8px;
+	line-height: 150%;
+}
+
+
+
+
+
+
 /* 공통적용 CSS */
 .btn-group {
 	display:block;
