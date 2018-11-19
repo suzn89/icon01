@@ -1512,6 +1512,11 @@ input[type="text"],input[type="password"],select {
 	padding-left:90px;
 	background:url(../images/act.png) left top no-repeat;
 }
+.bg04{
+	width:100%;
+	padding-left:90px;
+	background:url(../images/teacher.png) left top no-repeat;
+}
 #tab02 {
 	position:relative;
 }
