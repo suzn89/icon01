@@ -1707,6 +1707,10 @@ input[type="text"],input[type="password"],select {
 	font-size:0;
 	text-indent: -999em;
 }
+/* font-size */
+.ft16 {
+	font-size: 16px !important;
+}
 /* MARGIN */
 .mt0 {
 	margin-top:0px !important;
