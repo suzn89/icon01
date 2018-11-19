@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>훈련관리</title>
+<link href="./css/incon_reset.css" rel="stylesheet" type="text/css">
+<link href="./css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+</head>
+<body>
+<header>
+<div id="header_cont">
+	<h1><a href="#">신고통합 모의훈련 시스템</a></h1>
+	<h2>훈련 대상자 관리</h2>
+	<div id="adm_menu" class="adminmn">
+		<span><i class="fa fa-user"></i>관리자</span>
+		<ul class="dropdown">
+			<li><a href="#"><i class="fa fa-cog"></i>설정</a></li>
+			<li><a href="#"><i class="fa fa-sign-out"></i>로그아웃</a></li>
+		</ul>
+	</div>
+</div>
+</header>
+<section id="contents">
+<div class="page_tit">
+	<h3>훈련 대상자</h3>
+	<ul class="btn-group">
+		<li><a href="#" class="btn-basic"><i class="fa fa-search"></i>검색</a></li>
+		<li><a href="#" class="btn-basic"><i class="fa fa-plus"></i>대상자 추가</a></li>
+	</ul>
+</div>
+<!-- 페이지 두번째 큰제목 시작-->
+<div class="page_2dpth_tit" style="margin-top:0;">
+	<div class="radio-con">
+		<input id="r1" type="radio" name="r" checked/>
+		<label for="r1" class="input-element">전체</label>
+		<input id="r2" type="radio" name="r"/>
+		<label for="r2" class="input-element">소방</label>
+		<input id="r3" type="radio" name="r"/>
+		<label for="r3" class="input-element">경찰</label>
+		<input id="r5" type="radio" name="r"/>
+		<label for="r5" class="input-element">해경</label>
+	</div>
+</div>
+<div>
+	<table class="basic_tbl">
+	<colgroup>
+	<col width="80px">
+	<col width="100px">
+	<col width="*">
+	<col width="130px">
+	<col width="80px">
+	<col width="250px">
+	<col width="150px">
+	<col width="170px">
+	</colgroup>
+	<tr>
+		<th class="txc">
+			 기관
+		</th>
+		<th>
+			 성명
+		</th>
+		<th>
+			 소속
+		</th>
+		<th>
+			 직책
+		</th>
+		<th>
+			 직급
+		</th>
+		<th>
+			 전자우편 주소
+		</th>
+		<th>
+			 휴대폰
+		</th>
+		<th>
+			 마지막 훈련
+		</th>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영일
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방교
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 2018-02-07
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영이
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방사
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 --:--
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영일
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방교
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 2018-02-07
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영이
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방사
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 --:--
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영일
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방교
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 2018-02-07
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영이
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방사
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 --:--
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영일
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방교
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 2018-02-07
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영이
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방사
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 --:--
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영일
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방교
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 2018-02-07
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영이
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방사
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 --:--
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 해경
+		</td>
+		<td>
+			 오 영일
+		</td>
+		<td>
+			 해양 경찰청 상황센터
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 경위
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 2018-02-07
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 오 영이
+		</td>
+		<td>
+			 중앙 119 구조본부 119 구조 상황실
+		</td>
+		<td>
+			 상황실 상황요원
+		</td>
+		<td>
+			 소방사
+		</td>
+		<td>
+			 yeongsim@korea.com
+		</td>
+		<td>
+			 010-1234-1234
+		</td>
+		<td>
+			 --:--
+		</td>
+	</tr>
+	</table>
+</div>
+</section>
+</body>
+</html>
