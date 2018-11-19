@@ -1330,6 +1330,16 @@ input[type="text"],input[type="password"],select {
 	color:#7D7D7D;
 	font-size:14px;
 }
+.borderbox {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #d0d0d0;
+	resize: none;
+	overflow-y:scroll;
+}
+
 .rightbtn input[type="text"],input[type="number"],input[type="password"],select {
 	vertical-align:middle;
 	border:solid 1px #d0d0d0;
