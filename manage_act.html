@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>행위</title>
+<link href="./css/incon_reset.css" rel="stylesheet" type="text/css">
+<link href="./css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+</head>
+<body>
+<header>
+<div id="header_cont">
+	<h1><a href="#">신고통합 모의훈련 시스템</a></h1>
+	<h2>행위</h2>
+	<div id="adm_menu" class="adminmn">
+		<span><i class="fa fa-user"></i>관리자</span>
+		<ul class="dropdown">
+			<li><a href="#"><i class="fa fa-cog"></i>설정</a></li>
+			<li><a href="#"><i class="fa fa-sign-out"></i>로그아웃</a></li>
+		</ul>
+	</div>
+</div>
+</header>
+<section id="contents">
+<div class="page_tit">
+	<h3>행위</h3>
+	<ul class="btn-group">
+		<li><a href="#" class="btn-basic"><i class="fa fa-search"></i>검색</a></li>
+		<li><a href="#" class="btn-basic"><i class="fa fa-plus"></i>행위추가</a></li>
+	</ul>
+</div>
+<!-- 페이지 두번째 큰제목 시작-->
+<div class="page_2dpth_tit" style="margin-top:0;">
+	<div class="radio-con">
+		<input id="r1" type="radio" name="r" checked/>
+		<label for="r1" class="input-element">전체</label>
+		<input id="r2" type="radio" name="r"/>
+		<label for="r2" class="input-element">강사</label>
+		<input id="r3" type="radio" name="r"/>
+		<label for="r3" class="input-element">접수자</label>
+		<input id="r5" type="radio" name="r"/>
+		<label for="r5" class="input-element">이관자</label>
+	</div>
+</div>
+<div>
+	<table class="basic_tbl">
+	<colgroup>
+	<col width="80px">
+	<col width="120px">
+	<col width="80px">
+	<col width="*">
+	<col width="80px">
+	<col width="80px">
+	<col width="170px">
+	</colgroup>
+	<tr>
+		<th class="txc">
+			 분류
+		</th>
+		<th>
+			 세부분류
+		</th>
+		<th>
+			 행위자
+		</th>
+		<th>
+			 행위
+		</th>
+		<th>
+			 제한시간
+		</th>
+		<th>
+			 배점
+		</th>
+		<th>
+			 수정일시
+		</th>
+	</tr>
+	<tr>
+		<td class="txc">
+			 공통
+		</td>
+		<td>
+			 신고정보 확인
+		</td>
+		<td>
+			 강사
+		</td>
+		<td>
+			 전화를 건다.
+		</td>
+		<td>
+		</td>
+		<td>
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 공통
+		</td>
+		<td>
+			 신고정보 확인
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+			 전화를 받는다.
+		</td>
+		<td>
+			 1
+		</td>
+		<td>
+			 10
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 공통
+		</td>
+		<td>
+			 신고정보 확인
+		</td>
+		<td>
+			 강사
+		</td>
+		<td>
+			 "여기 창아람 아파트 근처인데요. 교통사고가 났는데 피해자가 머리에서 피를 흘리고 있으며 의식은 없는 것 같습니다. 빨리 와주세요"라고 말한다.
+		</td>
+		<td>
+		</td>
+		<td>
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 공통
+		</td>
+		<td>
+			 신고정보 확인
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+			 "네 지금 곧 출동하겠습니다."라고 응답한 후 전화를 끊는다.
+		</td>
+		<td>
+			 3
+		</td>
+		<td>
+			 15
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 사건위치 선택
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+			 재난 (도로명/지번)주소에 청아람 아파트의 위치를 검색하여 입력하고 GIS에 해당 위치가 표시됨을 확인한다.
+		</td>
+		<td>
+			 30
+		</td>
+		<td>
+			 100
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 사건종별 선택
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+			 재난 종별(화재/구조/구급/기타)에서 구급을 선택한다.
+		</td>
+		<td>
+			 1
+		</td>
+		<td>
+			 30
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 사건종별 선택
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+			 재난 세부분류에서 '교통사고'를 선택한다.
+		</td>
+		<td>
+			 3
+		</td>
+		<td>
+			 50
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 사건규모 선택
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+			 재난 규모에서 '1차 출동'을 선택한다.
+		</td>
+		<td>
+			 3
+		</td>
+		<td>
+			 50
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 출동대 편성
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+			 지침 편성으로 자동 편성된 출동대를 확인 후 차량의 추가 또는 제거를 실행한다.
+		</td>
+		<td>
+			 20
+		</td>
+		<td>
+			 50
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	<tr>
+		<td class="txc">
+			 소방
+		</td>
+		<td>
+			 지령
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+			 지령 버튼을 누르고 "구급출동 청아람 아파트 앞 차대 보행자 교통사고. 피해자는 현재 두부에 출혈이 있고 의식이 없는 상태임"이라는 내용으로 방송을 내보낸다.
+		</td>
+		<td>
+			 20
+		</td>
+		<td>
+			 50
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+    </tr>
+    <tr>
+		<td class="txc">
+                공통
+		</td>
+		<td>
+                신고정보 확인
+		</td>
+		<td>
+			 접수자
+		</td>
+		<td>
+                신고자에게 전화를 건다.
+		</td>
+		<td>
+			 10
+		</td>
+		<td>
+			 50
+		</td>
+		<td>
+			 2018-02-07 16:30:21
+		</td>
+	</tr>
+	</table>
+</div>
+</section>
+</body>
+</html>
