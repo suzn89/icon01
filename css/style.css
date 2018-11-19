@@ -1299,6 +1299,16 @@ input[type="text"],input[type="password"],select {
 #input_form {
 	margin-bottom:30px;
 }
+#input_form .noresize {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #d0d0d0;
+	resize: none;
+	overflow-y:scroll;
+	
+}
 #input_form table {
 	width:100%;
 }
@@ -1486,6 +1496,11 @@ input[type="text"],input[type="password"],select {
 	width:100%;
 	padding-left:90px;
 	background:url(../images/scenario.png) left top no-repeat;
+}
+.bg03 {
+	width:100%;
+	padding-left:90px;
+	background:url(../images/act.png) left top no-repeat;
 }
 #tab02 {
 	position:relative;
