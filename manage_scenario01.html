@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>시나리오 관리</title>
+<link href="./css/incon_reset.css" rel="stylesheet" type="text/css">
+<link href="./css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+</head>
+<body>
+<header>
+<div id="header_cont">
+	<h1><a href="#">신고통합 모의훈련 시스템</a></h1>
+	<h2>시나리오 관리</h2>
+	<div id="adm_menu" class="adminmn">
+		<span><i class="fa fa-user"></i>관리자</span>
+		<ul class="dropdown">
+			<li><a href="#"><i class="fa fa-cog"></i>설정</a></li>
+			<li><a href="#"><i class="fa fa-sign-out"></i>로그아웃</a></li>
+		</ul>
+	</div>
+</div>
+</header>
+<section id="contents">
+<div class="page_tit">
+	<h3>새로운 시나리오 등록</h3>
+	<ul class="btn-group">
+		<li><a href="#" class="btn-basic"><i class="fa fa-times"></i>취소</a></li>
+		<li><a href="#" class="btn-basic"><i class="fa fa-chevron-down"></i>저장</a></li>
+		<li><a href="#" class="btn-basic"><i class="fa fa-forward"></i>저장 후 계속</a></li>
+	</ul>
+</div>
+<div id="input_form" class="bg02">
+	<table class="column3">
+	<colgroup>
+	<col width="33%">
+	<col width="33%">
+	<col width="34%">
+	</colgroup>
+	<tr>
+		<th>
+			 시나리오 이름
+		</th>
+		<th>
+			 시나리오 유형
+		</th>
+		<th>
+			 사용여부
+		</th>
+	</tr>
+	<tr>
+		<td>
+			<input type="text" id="date" name="date" title="" style="width:100%">
+		</td>
+		<td>
+			<input type="text" id="date" name="date" title="" style="width:100%">
+		</td>
+		<td>
+			<input type="text" id="date" name="date" title="" style="width:100%">
+		</td>
+	</tr>
+	<tr>
+		<th colspan="3">
+			 시나리오 주소
+		</th>
+	</tr>
+	<tr>
+		<td colspan="3" class="rightbtn">
+			<div class="adress_pick mb10">
+				<input type="text" id="" name="" title="" style="width:1456px">
+				<button type="button" onclick="" class="btn_sel01"><span class="ir">검색</span></button>
+			</div>
+			<div class="adress_pick">
+				<input type="text" id="" name="" title="" style="width:1456px">
+				<button type="button" onclick="" class="btn_sel02"><span class="ir">검색</span></button>
+			</div>
+		</td>
+	</tr>
+	</table>
+</div>
+<!-- // input_form-->
+<!-- 탭시작 -->
+<div id="tab01">
+	<ul>
+		<li class="on"><a href="#">설명</a></li>
+		<li><a href="#">행위</a><sup>0</sup></li>
+	</ul>
+</div>
+<div id="tab_cont">
+	<div class="tab_items boxcon height220">
+	</div>
+	<div class="tab_items">
+	</div>
+</div>
+<!-- 탭 끝-->
+<!-- pop up -->
+<div id="warn_layer04">
+	<div class="warn_head">
+		<h5>훈련 대상자 선택</h5>
+		<button type="button" class="closePop"><i class="fa fa-close"></i></button>
+	</div>
+	<div class="warn_wrap">
+		<div class="pop_srch_form rightbtn">
+			<input type="text" id="" name="" title="" style="width:700px">
+			<button type="button" onclick="" class="btn_sel03"><span class="ir">검색</span></button>
+        </div>
+        <div class="table_tit">검색결과<sup>1</sup></div>
+        <ul>
+            <li class="click">
+                <ul>
+                        <li class="bull02"><strong>대구광역시 달성군 구지면 구지서로 1</strong></li>
+                        <li class="bull01">대구광역시 달성군 구지면 수리리 1297 중앙119구조본부</li>
+                </ul>
+            </li>
+            
+        </ul>
+	</div>
+	<div class="btm-btns">
+		<ul class="btn-group3">
+			<li><a href="#" class="btn-pbasic">취소</a></li>
+			<li><a href="#" class="btn-pbasic">확인</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--팝업-->
+</section>
+<!-- // conetents-->
+</body>
+</html>
