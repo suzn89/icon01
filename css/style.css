@@ -909,6 +909,23 @@ table .td_70pc {
 .poptbl td {
     border-bottom: 1px solid #e3e3e3
 }
+.srch_tbl .srch_top {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.srch_top p {
+	display: inline-block;
+}
+.srch_top .rit_txt {
+	float: right;
+}
+.srch_top .rit_txt i {
+	color: #538FC7
+}
+.srch_tbl .basic_tbl tr:hover td {
+	background:#E3E3E3;
+	color:#7D7D7D;
+}
 .tr_list>li {
 	position:relative;
 	float:left;
