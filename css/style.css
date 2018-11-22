@@ -276,7 +276,7 @@ section {
 	font-size:22px;
 }
 #login_box .i_text {
-	width:430px;
+	width:420px;
 	height:48px;
 	line-height:48px;
 	padding:0px 23px;
@@ -662,7 +662,7 @@ section {
 .warn_wrap {
     padding: 15px 17px;
     height: 445px;
-    /* overflow-y: scroll; */
+    overflow-y: auto;
 }
 #warn_layer02 p {
 	font-size:14px;
@@ -872,7 +872,7 @@ table .td_70pc {
 .tbl220 {
 	width:100%;
 	height:220px;
-	overflow-y:scroll;
+	overflow-y:auto;
 }
 .basic_tbl {
 	border-collapse:collapse;
@@ -1042,7 +1042,7 @@ table .td_70pc {
 #process .row1 .textbox {
 	width:100%;
 	height:150px;
-	overflow-y:scroll;
+	overflow-y:auto;
 	font-size:16px;
 	color:#7d7d7d;
 	border-radius:8px;
@@ -1065,6 +1065,9 @@ table .td_70pc {
 #process .box_table span {
 	margin-top:10px;
 	display:block;
+}
+#process .box_table ul {
+	overflow:hidden;
 }
 #process .box_table ul li {
 	height:91px;
@@ -1323,7 +1326,7 @@ input[type="text"],input[type="password"],select {
 	border-radius: 5px;
 	border: 1px solid #d0d0d0;
 	resize: none;
-	overflow-y:scroll;
+	overflow-y:auto;
 	
 }
 #input_form table {
@@ -1357,7 +1360,7 @@ input[type="text"],input[type="password"],select {
 	overflow-y:scroll;
 }
 
-.rightbtn input[type="text"],input[type="number"],input[type="password"],select {
+.rightbtn input[type="text"], .rightbtn input[type="number"], .rightbtn input[type="password"],select {
 	vertical-align:middle;
 	border:solid 1px #d0d0d0;
 	padding:5px;
@@ -1369,10 +1372,11 @@ input[type="text"],input[type="password"],select {
 .date_pick {
 	position:relative;
 }
-.date_pick input {
+.rightbtn .date_pick input {
 	padding:8px 10px;
 	height:35px;
 	line-height:30px;
+	border-right: none;
 }
 .date_pick .btn_cal {
 	position:absolute;
@@ -1457,7 +1461,7 @@ input[type="text"],input[type="password"],select {
 	overflow: hidden;
 	margin:20px 0 30px;
 }
-.pop_srch_form input[type="text"],input[type="number"],input[type="password"],select {
+.pop_srch_form input[type="text"], .pop_srch_form input[type="number"], .pop_srch_form input[type="password"],select {
 	vertical-align:middle;
 	border:solid 1px #d0d0d0;
 	text-align: right;
@@ -1594,6 +1598,7 @@ input[type="text"],input[type="password"],select {
 	width: 100%;
 	padding: 20px;
 	height: 200px;
+	overflow-y:auto;
 	background: #f8f8f8;
 	border-radius: 8px;
 	line-height: 150%;
