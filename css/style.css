@@ -1605,8 +1605,74 @@ input[type="text"],input[type="password"],select {
 }
 
 
+.row5li li {
+	position:relative;
+	float:left;
+	width:296px;
+	height:200px;
+	margin-right:30px;
+	margin-bottom:30px;
+	padding:20px;
+	color:#7d7d7d;
+	border-radius:8px;
+	border:1px solid #E3E3E3;
+	background:#E3E3E3;
+	text-align: center;
+}
+.row5li li a {
+	color: #ffffff;
+	font-size: 14px;
+	display:inline-block;
+	width: 100%;
+	height: 100%;
+}
+.row5li li .leftnum {
+	position: absolute;
+	left:20px;
+	top:20px;
+	font-size: 36px;
+}
+.row5li li .icobig {
+	font-size: 100px;
+}
+.row5li li .state {
+	position: absolute;
+	right:20px;
+	top: 110px;
+}
+.row5li li .ing {
+	color: #28436E;
+	font-weight: bold
+}
+.row5li li p {
+	position: absolute;
+	bottom:0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+	height: 60px;
+	padding: 10px 10px;
+	color: #7d7d7d;
+	background: #ffffff;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.row5li li:hover {
+	border: 1px solid #DBEEF8;
+	background: #DBEEF8;
 
-
+}
+.row5li li:active, .row5li li:focus {
+	border: 1px solid #538FC7;
+	background: #538FC7;
+}
+.row5li .active {
+	border: 1px solid #538FC7;
+	background:#538FC7
+}
+.row5li li:nth-child(5n) {
+	margin-right: 0 ;
+}
 
 
 /* 공통적용 CSS */

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'incon';
-  src:  url('fonts/incon.eot?jdqhq4');
-  src:  url('fonts/incon.eot?jdqhq4#iefix') format('embedded-opentype'),
-    url('fonts/incon.ttf?jdqhq4') format('truetype'),
-    url('fonts/incon.woff?jdqhq4') format('woff'),
-    url('fonts/incon.svg?jdqhq4#incon') format('svg');
+  src:  url('fonts/incon.eot?vaud27');
+  src:  url('fonts/incon.eot?vaud27#iefix') format('embedded-opentype'),
+    url('fonts/incon.ttf?vaud27') format('truetype'),
+    url('fonts/incon.woff?vaud27') format('woff'),
+    url('fonts/incon.svg?vaud27#incon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -42,7 +42,7 @@ i {
 .icon-rec-play:before {
   content: "\e91a";
 }
-.icon-noun_crime_60734:before {
+.icon-crime:before {
   content: "\e91b";
 }
 .icon-ambulance:before {
