@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'incon';
-  src:  url('fonts/incon.eot?vaud27');
-  src:  url('fonts/incon.eot?vaud27#iefix') format('embedded-opentype'),
-    url('fonts/incon.ttf?vaud27') format('truetype'),
-    url('fonts/incon.woff?vaud27') format('woff'),
-    url('fonts/incon.svg?vaud27#incon') format('svg');
+  src:  url('fonts/incon.eot?wstv8h');
+  src:  url('fonts/incon.eot?wstv8h#iefix') format('embedded-opentype'),
+    url('fonts/incon.ttf?wstv8h') format('truetype'),
+    url('fonts/incon.woff?wstv8h') format('woff'),
+    url('fonts/incon.svg?wstv8h#incon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,12 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-plus-woman:before {
+  content: "\e920";
+}
+.icon-call:before {
+  content: "\e921";
+}
 .icon-cscenter-woman:before {
   content: "\e915";
 }
@@ -56,20 +62,6 @@ i {
 }
 .icon-monitor:before {
   content: "\e91f";
-}
-.icon-plus-woman .path1:before {
-  content: "\e920";
-  color: rgb(46, 48, 61);
-}
-.icon-plus-woman .path2:before {
-  content: "\e921";
-  margin-left: -0.6943359375em;
-  color: rgb(46, 48, 61);
-}
-.icon-plus-woman .path3:before {
-  content: "\e922";
-  margin-left: -0.6943359375em;
-  color: rgb(248, 248, 248);
 }
 .icon-circle:before {
   content: "\e914";

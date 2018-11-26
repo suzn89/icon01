@@ -839,6 +839,7 @@ table .td_70pc {
 	color:#538fc7;
 }
 #date_view {
+	overflow: hidden;
 	margin-top:15px;
 }
 #date_view dl {
@@ -851,7 +852,8 @@ table .td_70pc {
 }
 #date_view dl dd {
 	font-size:16px;
-	color:#2E303D
+	color:#2E303D;
+	text-align: center;
 }
 .page_2dpth_tit {
 	position:relative;
@@ -868,6 +870,10 @@ table .td_70pc {
 	float:left;
 	font-size:22px;
 	color:#7d7d7d;
+}
+.page_2dpth_tit .icon-rec-play {
+	font-size: 20px;
+	color: #80A0D5;
 }
 .tbl220 {
 	width:100%;
@@ -1674,6 +1680,128 @@ input[type="text"],input[type="password"],select {
 	margin-right: 0 ;
 }
 
+.textboxgray {
+	width:100%;
+	height:150px;
+	overflow-y:auto;
+	font-size:14px;
+	color:#7d7d7d;
+	border-radius:8px;
+	background:#F8F8F8;
+	line-height:150%;
+	padding:30px;
+}
+.textboxgray h5 {
+	font-size: 16px;
+	color: #7d7d7d;
+	margin-bottom: 20px;
+}
+
+.btn_normal {
+	border: 1px solid #7d7d7d;
+	border-radius: 5px;
+	color: #7d7d7d;
+	display:inline-block;
+	padding: 8px 15px;
+	font-size: 14px;
+}
+.btn_disabled {
+	font-size: 14px;
+	display:inline-block;
+	padding: 8px 15px;
+	color: #e3e3e3;
+}
+.target {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	float: right;
+	color: #E3E3E3;
+}
+.target i {
+	font-size: 40px;
+}
+.target .num_people {
+	position: absolute;
+	right: 10px;
+	bottom:25px;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	display: inline-block;
+	line-height: 15px;
+	background: #DBEEF8;
+	color: #fff;
+	font-size: 8px;
+}
+.target .targer_peo {
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+}
+.target::after {
+	display:block;
+	content:'';
+	clear:both;
+}
+.datatable {
+	padding: 0 10px 10px;
+	background: #f8f8f8;	
+	border-radius: 8px;
+	min-height: 200px;
+}
+.peo_sel {
+	text-align: right;
+	font-size: 50px;
+	padding: 10px;
+}
+.btn_off {
+	color: #e3e3e3;
+}
+.btn_on {
+	color: #7d7d7d;
+}
+.tbl_area {
+	padding: 10px 0;
+	border: 1px solid #e3e3e3;
+	border-radius: 8px;
+	background: #ffffff;
+}
+.tbl_area table {
+	width: 96%;
+	margin: 0 auto;
+}
+.tbl_area td {
+	border-bottom: 1px solid #e3e3e3;
+	vertical-align: middle;
+	padding: 10px;
+	color: #E3E3E3;
+}
+.tbl_area tr:last-child td {
+	border-bottom: 0;
+}
+.tbl_area td i {
+	font-size:50px;
+}
+.listactive td {
+	color: #80A0D5;
+}
+.tbl_area .monitor {
+	position: relative;
+}
+.comnumber {
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	top: 18px;
+	left: 0;
+	text-align: center;
+	font-size: 18px;
+}
+
 
 /* 공통적용 CSS */
 .btn-group {
@@ -1898,6 +2026,9 @@ input[type="text"],input[type="password"],select {
 /* font-size */
 .ft16 {
 	font-size: 16px !important;
+}
+.ft18 {
+	font-size: 18px !important;
 }
 /* MARGIN */
 .mt0 {
