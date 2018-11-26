@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2e303d;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="그룹_653" data-name="그룹 653" transform="translate(-655 -128.5)">
+    <path id="합치기_11" data-name="합치기 11" class="cls-1" d="M-7557-2561l-5,5,5-5-5-5,5,5,5-5-5,5,5,5Z" transform="translate(8218.001 2695.5)"/>
+  </g>
+</svg>
