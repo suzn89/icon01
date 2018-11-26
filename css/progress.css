@@ -1,0 +1,26 @@
+.chart{float: left; position: relative; margin:0; width: 60px; height: 60px;}
+.circle-mask-outer, .circle-mask-inner{overflow: hidden; position: absolute; width: 30px; height: 60px;}
+
+.circle-mask-outer.left{left: 0;}
+.circle-mask-outer.right{right: 0;}
+
+.circle-mask-outer.left .circle-mask-inner{left: 100%; -webkit-transform-origin: 0 50%; -ms-transform-origin: 0 50%; transform-origin: 0 50%;}	
+.circle-mask-outer.right .circle-mask-inner{right: 100%; -webkit-transform-origin: 100% 50%; -ms-transform-origin: 100% 50%; transform-origin: 100% 50%;}	
+
+.circle-body{border-radius: 50%; position: absolute; width: 60px; height: 60px;}
+
+	.circle-mask-outer.left .circle-body{right: 0;}
+	.circle-mask-outer.right .circle-body{left: 0;}
+	#water .circle-body{background-color: #80A0D5;}
+.chart_bg{position: absolute; left: 0px; top: 0px; width: 60px; height:60px; background-color: #E3E3E3; border-radius: 50%;  text-align: center; -webkit-backface-visibility: hidden; opacity:0.7;}	
+.chart-content{position: absolute; left: 9px; top: 9px; width: 42px; height: 42px;  border-radius: 50%; background-color: #f8f8f8;padding: 0px; text-align: center; -webkit-backface-visibility: hidden; /* -webkit-box-shadow: 0px 0px 20px #BBBBBB; box-shadow: 0px 0px 20px #BBBBBB; */}
+.chart-content .text{font-weight: bold; line-height: 15px; font-weight: normal; }		
+.chart-content .percent-number{font-size: 18px; color:#7d7d7d;}
+
+	
+
+
+
+
+
+

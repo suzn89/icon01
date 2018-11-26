@@ -1769,6 +1769,7 @@ input[type="text"],input[type="password"],select {
 	border: 1px solid #e3e3e3;
 	border-radius: 8px;
 	background: #ffffff;
+	min-height: 110px;
 }
 .tbl_area table {
 	width: 96%;
@@ -1802,7 +1803,10 @@ input[type="text"],input[type="password"],select {
 	font-size: 18px;
 }
 
-
+.tbl_area td .btn_on .icon-pencil {
+	font-size:30px !important;
+	color: #e3e3e3 !important;
+}
 /* 공통적용 CSS */
 .btn-group {
 	display:block;
