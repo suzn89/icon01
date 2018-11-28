@@ -664,6 +664,11 @@ section {
     height: 445px;
     overflow-y: auto;
 }
+.warn_wrap06 {
+    padding: 15px 17px;
+    height: 240px;
+    overflow-y: auto;
+}
 #warn_layer02 p {
 	font-size:14px;
 	color:#7d7d7d;
@@ -751,6 +756,59 @@ section {
 	font-size:22px;
 	color:#7D7D7D;
 }
+#warn_layer06 {
+	position:absolute;
+    width:700px;
+    height: 400px;
+	border-radius:5px;
+	background:#FCFCFC;
+	-moz-box-shadow:0px 1px 10px #e3e3e3;
+	-webkit-box-shadow:0px 1px 10px #e3e3e3;
+	box-shadow:0px 1px 10px #e3e3e3;
+	left:50%;
+	top:230px;
+	z-index:999;
+	margin-left:-350px;
+}
+#warn_layer06 h5 {
+    margin-bottom:10px;
+    padding: 20px;
+    border-bottom: 1px solid #E3E3E3;
+	font-size:22px;
+	color:#7D7D7D;
+}
+.input_li li {
+	float: left;
+}
+.pop_srch_form .input_li li:nth-child(2n) {
+	margin-left:25px;
+}
+.pop_srch_form .input_li input[type="text"] {
+	float: left;
+	margin-right:0;
+	border-right: none;
+	text-align: left;
+}
+.pop_srch_form .input_li button {
+	display:inline-block;
+	width:35px;
+	height: 35px;
+	font-style: 17px;
+	color: #d0d0d0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 1px solid #d0d0d0;
+	background: #ffffff;
+}
+.pop_srch_form .input_li button:hover {
+	color: #DBEEF8;
+	border: 1px solid #DBEEF8;
+} 
+.pop_srch_form .input_li button:focus,.pop_srch_form .input_li button:active {
+	color: #538FC7;
+	border: 1px solid #538FC7;
+} 
+
 
 .right_btm {
 	margin-top: 10px;
@@ -1803,10 +1861,21 @@ input[type="text"],input[type="password"],select {
 	font-size: 18px;
 }
 
-.tbl_area td .btn_on .icon-pencil {
+.tbl_area td .icon-pencil {
 	font-size:30px !important;
-	color: #e3e3e3 !important;
+	color: #e3e3e3;
 }
+.tbl_area tr:hover td {
+	color: #DBEEF8
+}
+.tbl_area tr:hover td .icon-pencil {
+	color: #dbeef8
+}
+.tbl_area tr:hover td .icon-pencil:focus,
+.tbl_area tr:hover td .icon-pencil:active {
+	color: #538FC7
+}
+
 /* 공통적용 CSS */
 .co_disable {
 	color: #e3e3e3;
@@ -1838,6 +1907,7 @@ input[type="text"],input[type="password"],select {
 	color:#538fc7;
 	border-radius:5px;
 	border:1px solid #538fc7;
+	background: #ffffff;
 }
 .btn-basic:hover {
 	color:#ffffff;
