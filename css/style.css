@@ -437,6 +437,7 @@ section {
 }
 #tab01 ul li i {
 	color:#D86E74;
+	vertical-align: middle;
 }
 #tab01 ul .on sup {
 	color:#538fc7;
@@ -1876,6 +1877,94 @@ input[type="text"],input[type="password"],select {
 	color: #538FC7
 }
 
+/* 리스트 보기 방식 변경 */
+.viewtype {
+	float: right;
+	font-size: 20px;
+}
+.viewtype button {
+	color: #e3e3e3;
+}
+.viewtype button:hover {
+	color: #dbeef8
+}
+.viewtype button:active,
+.viewtype button:focus {
+	color: #538FC7
+}
+.viewtype .active {
+	color:#538FC7
+}
+[class^="view__"] {
+	margin-top: 20px;
+}
+[class^="view__"] li {
+	position: relative;
+	border-radius: 5px;
+	border: 1px solid #e3e3e3;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+[class^="view__"] li span {
+	color:#ffffff;
+	font-size: 100px;
+	background: #e3e3e3;
+	display: block;
+	float: left;
+	text-align: center;
+	
+}
+[class^="view__"] li:hover span {
+	background: #dbeef8
+}
+.view__list li span {
+	width: 150px;
+	height: 150px;
+}
+.view__card li span {
+	width: 300px;
+	height: 150px;
+}
+[class^="view__"] li span i {
+	vertical-align: text-bottom;
+}
+.view__list li dl {
+	float: left;
+	margin: 15px 0 15px 30px;
+}
+.view__card li dl {
+	float: left;
+	margin: 15px;
+}
+[class^="view__"] li dl dt {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+[class^="view__"] li dl dd {
+	font-size: 14px;
+	color: #e3e3e3;
+	line-height: 150%;
+}
+[class^="view__"] .active span {
+	background: #538FC7
+}
+.view__list .btn-pbasic {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	margin-top: -17px;
+}
+.view__card li {
+	width:300px;
+	float: left;
+	margin-right: 14px;
+}
+.view__card li:nth-child(5n) {
+	margin-right: 0;
+}
+.view__card dl dd {
+	display: none;
+}
 /* 공통적용 CSS */
 .co_disable {
 	color: #e3e3e3;
